@@ -1,4 +1,4 @@
-# HomeWorkSpringHibernate
+# HomeWorkHibernate
  Домашнее задание по теме "Hibernate. ORM – нет времени писать запросы" (ProductStar)
 
 # Постановка задачи
@@ -26,7 +26,7 @@
 - test/java/com/product/star/homework/ContactDaoTests.java - непосредственно класс теста, который должен отработать для сдачи задания
 
 ## Примечания
-- Для доработки и сдачи домашнего задания перенёс модуль spring-hibernate в отдельный проект HomeWorkSpringHibernate
+- Для доработки и сдачи домашнего задания перенёс модуль spring-hibernate в отдельный проект HomeWorkHibernate
 - Часть классов, относящуюся к уроку, перенёс в package com.product.star.lesson чтоб не мешалась и не пересекалась
 - Для успешной отработки теста необходима локально установленная и запущенная на порту 5432 БД PostgreSQL с DB postgres и пользователем postgres с паролём postgres 
 - В build.gradle поменял версию spring-context c 5.3.3 на 6.2.0 (более новую). Часть проблем ушло .
