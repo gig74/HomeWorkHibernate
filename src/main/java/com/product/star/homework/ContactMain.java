@@ -7,7 +7,7 @@ public class ContactMain {
         var applicationContext = new AnnotationConfigApplicationContext(ContactConfiguration.class);
 
         var contactDao = applicationContext.getBean(ContactDao.class);
-        contactDao.addContact(new Contact("Maria", "Ivanova", "mivanova@gmail.com", "7654321"));
+        contactDao.addContact(new Contact("Maria", "Ivanova", "mivanova@gmail.com", "AA7654321"));
         var contact = contactDao.getContact(1L);
         System.out.println(contact);
     }

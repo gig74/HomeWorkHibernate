@@ -12,7 +12,6 @@ import java.util.Objects;
 @Entity
 @Table(name = "CONTACT")
 public class Contact {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
@@ -24,7 +23,7 @@ public class Contact {
     @Column(name = "email", nullable = false)
     private String email;
     @Column(name = "phone_number", nullable = false)
-    private String phone;
+     private String phone;
 
     public Contact(Long id, String name, String surname, String email, String phone) {
         this.id = id;
@@ -63,6 +62,7 @@ public class Contact {
     public String getPhone() {
         return phone;
     }
+
 
     public void setId(Long id) {
         this.id = id;
